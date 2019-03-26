@@ -1,0 +1,95 @@
+
+
+
+body
+{
+
+    font-family: 'News Cycle', sans-serif;
+    margin: 0%;
+    background-color: #FCD9B1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+}
+
+#conteneur
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#Box1{
+    width: 30%;
+  background-color: #FCD9B1;
+}
+#Box2{
+    width: 70%;
+    background-color: #FCD9B1;
+}
+
+.header
+{
+    font-family: 'News Cycle', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 100%;
+    width: 80%;
+}
+.Menu{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  /*  background-color: green;*/
+    }
+.Menu p {
+    width: 26.666%;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.Menu .border {
+  border-right: 1px solid black;
+}
+
+.titre
+{
+  text-align: center;
+
+}
+main
+{
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  background-color: purple;
+}
+
+.conteneur1 {
+  width: 80%;
+  height: 1000px;
+}
+.Block-1, .Block3, .Block-2 {
+  height: 333.33px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.Box1 {
+ display: flex;
+ justify-content: space-around;
+}
