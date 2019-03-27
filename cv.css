@@ -82,8 +82,15 @@ main
   width: 80%;
   height: 1000px;
 }
-.Block-1, .Block3, .Block-2 {
+.Block-1, .Block-2 {
   height: 333.33px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.Block3, .Block4 {
+  height: 150px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
@@ -92,4 +99,5 @@ main
 .Box1 {
  display: flex;
  justify-content: space-around;
+ margin-top: 10px;
 }
